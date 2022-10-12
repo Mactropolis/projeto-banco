@@ -1,0 +1,10 @@
+<h1>Entrada</h1>
+<label for="pesquisa">Dados a Pesquisar</label>
+<input [(ngModel)]="dadosPesquisa">
+
+<button (click)="obterDadosPesquisa()">Enviar</button>
+
+<hr>
+<label>Consentimento</label><input [(ngModel)]="entradaConsent">
+<label>Conta</label><input [(ngModel)]="entradaConta">
+<button (click)="incluir()">Adicionar</button>
